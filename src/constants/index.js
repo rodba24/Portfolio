@@ -48,7 +48,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built using React.js TailWindCSS.",
     technologies: [ "React.js", "TailwindCSS","HTML/CSS"],
-    github: "https://github.com/yourusername/thrivechat",
+    github: "https://github.com/rodba24/Portfolio",
   },
 ];
 

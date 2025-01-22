@@ -16,22 +16,22 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Buttons for larger screens */}
-      <div className="hidden md:flex items-center gap-6 ml-auto">
+      <div className="hidden md:flex items-center gap-6 ml-auto font-semibold">
         <a
           href="#home"
-          className="hover:text-purple-200 transition whitespace-nowrap"
+          className="hover:text-purple-300 transition whitespace-nowrap"
         >
           Home
         </a>
         <a
           href="#projects"
-          className="hover:text-purple-200 transition whitespace-nowrap"
+          className="hover:text-purple-300 transition whitespace-nowrap"
         >
           Projects
         </a>
         <a
           href="#experience"
-          className="hover:text-purple-200 transition whitespace-nowrap"
+          className="hover:text-purple-300 transition whitespace-nowrap"
         >
           Experience
         </a>

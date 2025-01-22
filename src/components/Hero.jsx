@@ -36,7 +36,7 @@ const Hero = () => {
               <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-6"></span>
 
               {/* Buttons */}
-              <div className="flex gap-5">
+              <div className="flex gap-5 ">
                 {/* Animated Resume Button */}
                 <motion.a
                   initial={{ scale: 0.9, opacity: 0 }}
@@ -45,12 +45,12 @@ const Hero = () => {
                     duration: 0.6,
                     ease: [0.42, 0, 0.58, 1], // Smooth cubic-bezier easing
                   }}
-                  href="resume.pdf"
+                  href="RodbaKhondokerResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-8 py-3 rounded-lg bg-[#a3a3db] text-neutral-800 font-bold text-lg shadow-md hover:bg-[#9292cc] transition"
+                  className="px-6 py-3 rounded-lg bg-[#a3a3db] text-neutral-800 font-bold text-lg shadow-md hover:bg-[#9292cc] transition"
                 >
-                  Resume
+                  My Resume
                 </motion.a>
 
                 {/* Animated Contact Button */}
@@ -62,7 +62,7 @@ const Hero = () => {
                     ease: [0.42, 0, 0.58, 1],
                   }}
                   href="#contact"
-                  className="px-8 py-3 rounded-lg bg-[#a3a3db] text-neutral-800 font-bold text-lg shadow-md hover:bg-[#9292cc] transition"
+                  className="px-9 py-3 rounded-lg bg-[#a3a3db] text-neutral-800 font-bold text-lg shadow-md hover:bg-[#9292cc] transition"
                 >
                   Contact
                 </motion.a>
